@@ -4,3 +4,4 @@
 ### ■インストール手順
 ### ・公式ドキュメント https://laravel.com/docs/9.x/installation#next-steps
 ### ・日本語翻訳ドキュメント https://readouble.com/laravel/9.x/ja/installation.html
+###   ※Windows環境の場合(WSL2、ubuntuインストール・Dockerの設定 https://zenn.dev/na9/articles/ffe7b884fee7d2 )
