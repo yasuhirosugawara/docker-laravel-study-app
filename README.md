@@ -8,4 +8,6 @@
 ###
 ### ■GitHubのリポジトリにあるLaravelプロジェクトを、クローンして開発環境を構築しサイトが起動するところまでの手順
 ###  https://chigusa-web.com/blog/laravel-github-clone/
+### ■Laravelを使ったwebページ開発(2)簡単なアプリケーション構築まで
+### https://deus-ex-machina-ism.com/?p=23279
 
