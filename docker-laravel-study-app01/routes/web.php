@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\PersonController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/posts',[PostController::class,'index']);
-// Route::get('/posts/details/{id}')
+Route::get('/person',[PersonController::class,'index']);
 
 //ルーティング定義の追加
 Route::get('/home',function(){
