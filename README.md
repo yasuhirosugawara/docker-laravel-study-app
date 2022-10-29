@@ -14,3 +14,5 @@
 ### https://knowledge.cpi.ad.jp/howto-cpi/laravel-artisan/
 ### Artisanコマンド（早見表）
 ### https://laraweb.net/environment/899/
+### 簡単なCRUD処理のプログラム作成時に参考にしたサイト
+### https://team-lab.github.io/skillup/step2/04-laravel-form.html
