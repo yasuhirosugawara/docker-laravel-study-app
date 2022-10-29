@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\PersonController;
+use App\Http\Controllers\BbsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,8 @@ Route::get('/', function () {
 });
 Route::get('/posts',[PostController::class,'index']);
 Route::get('/person',[PersonController::class,'index']);
+Route::get('/bbs',[BbsController::class,'index']);
+Route::post('/bbs',[BbsController::class,'create']);
 
 //ルーティング定義の追加
 Route::get('/home',function(){
