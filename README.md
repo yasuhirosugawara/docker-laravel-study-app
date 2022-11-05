@@ -9,5 +9,6 @@
 ### [Laravelを使ったwebページ開発(2)簡単なアプリケーション構築まで](https://deus-ex-machina-ism.com/?p=23279)
 ### [PHP フレームワーク『 Laravel 』入門 #3 Artisan make コマンドの便利な使い方](https://knowledge.cpi.ad.jp/howto-cpi/laravel-artisan/)
 ### [Artisanコマンド（早見表）](https://laraweb.net/environment/899/)
-### [簡単なCRUD処理のプログラム作成時に参考にしたサイト](https://team-lab.github.io/skillup/step2/04-laravel-form.html)
+### [簡単なCRUD処理のプログラム作成時に参考にしたサイト①](https://team-lab.github.io/skillup/step2/04-laravel-form.html)
+### [簡単なCRUD処理のプログラム作成時に参考にしたサイト②](https://tech.windii.jp/backend/laravel/request)
 ### [phpDocumentor](https://www.phpdoc.org/3.0/)
