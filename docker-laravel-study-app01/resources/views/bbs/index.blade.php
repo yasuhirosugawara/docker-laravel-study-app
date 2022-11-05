@@ -28,7 +28,11 @@
 @isset($bbs)
 @foreach ($bbs as $d)
     <h2>{{ $d->name }}さんの投稿</h2>
+    登録日　{{$d->created_at}}<br>
+    更新日　{{$d->updated_at}}<br>
+    コメント<br>
     {{ $d->comment }}
+    
     <br><hr>
 @endforeach
 @endisset

@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\PersonController;
 use App\Http\Controllers\BbsController;
+use App\Http\Controllers\PhotoController;
+use App\Http\Controllers\ArticleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +25,8 @@ Route::get('/posts',[PostController::class,'index']);
 Route::get('/person',[PersonController::class,'index']);
 Route::get('/bbs',[BbsController::class,'index']);
 Route::post('/bbs',[BbsController::class,'create']);
+Route::resource('photos', PhotoController::class);
+Route::resource('articles', ArticleController::class);
 
 //ルーティング定義の追加
 Route::get('/home',function(){
