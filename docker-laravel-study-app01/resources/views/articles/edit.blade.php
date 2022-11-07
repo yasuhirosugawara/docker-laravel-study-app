@@ -12,4 +12,9 @@
     </div>
     <input type="submit" class="btn btn-primary" value="更新"/>
   </form>
+  <form action="/articles/{{$article->id}}" method="POST">
+    @method('DELETE')
+    @csrf
+    <input type="submit" class="btn btn-danger mt-3" value="削除"/>
+  </form>
 </div>

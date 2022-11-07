@@ -68,6 +68,7 @@ class ArticleController extends Controller
     public function edit(Article $article)
     {
         //
+        return view('articles.edit')->with('article', $article);
     }
 
     /**
@@ -95,5 +96,7 @@ class ArticleController extends Controller
     public function destroy(Article $article)
     {
         //
+        $article->delete();
+        return redirect('/articles');
     }
 }
