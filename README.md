@@ -13,3 +13,4 @@
 ### [簡単なCRUD処理のプログラム作成時に参考にしたサイト②](https://tech.windii.jp/backend/laravel/request)
 ### [簡単なCRUD処理のプログラム作成時に参考にしたサイト③](https://qiita.com/manbolila/items/7bb009908afc12269b8b)
 ### [phpDocumentor](https://www.phpdoc.org/3.0/)
+### [Laravelの認証機能実装に関しての情報](https://biz.addisteria.com/laravel_authentication/)
